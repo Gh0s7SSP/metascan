@@ -1,4 +1,4 @@
-# 🔍 METASCAN
+#  METASCAN
 > Metadata Scanner & Stripper — find and remove hidden info from your files
 
 ---
@@ -6,10 +6,10 @@
 ## What is this?
 
 Every file you create or share contains hidden **metadata** — things like:
-- 📍 **GPS coordinates** embedded in photos taken on your phone
-- 👤 **Your name** stored inside Word docs and PDFs
-- 🖥️ **What software / device** you used to create a file
-- 🕒 **Exact timestamps** of when you created or edited something
+-  **GPS coordinates** embedded in photos taken on your phone (not fully working)
+-  **Your name** stored inside Word docs and PDFs
+-  **What software / device** you used to create a file
+-  **Exact timestamps** of when you created or edited something
 
 METASCAN lets you **see all of that** and **wipe it clean** before sharing files.
 
@@ -19,13 +19,13 @@ METASCAN lets you **see all of that** and **wipe it clean** before sharing files
 
 | Type | Extensions | Scan | Strip |
 |------|-----------|------|-------|
-| Images | `.jpg` `.jpeg` `.png` `.tiff` `.webp` `.heic` | ✅ | ✅ |
-| PDF | `.pdf` | ✅ | ✅ |
-| Word | `.docx` | ✅ | ✅ |
-| Excel | `.xlsx` | ✅ | ✅ |
-| PowerPoint | `.pptx` | ✅ | ✅ |
-| Audio | `.mp3` `.flac` `.ogg` `.m4a` `.wav` | ✅ | ✅ |
-| Video | `.mp4` `.mkv` `.avi` `.mov` `.wmv` | ✅ | ❌ |
+| Images | `.jpg` `.jpeg` `.png` `.tiff` `.webp` `.heic` | y | y |
+| PDF | `.pdf` | y | y |
+| Word | `.docx` | y | y |
+| Excel | `.xlsx` | y | y |
+| PowerPoint | `.pptx` | y | y |
+| Audio | `.mp3` `.flac` `.ogg` `.m4a` `.wav` | y | y |
+| Video | `.mp4` `.mkv` `.avi` `.mov` `.wmv` | y | y |
 
 ---
 
@@ -49,7 +49,7 @@ cd metascan
 pip install -r requirements.txt --break-system-packages
 ```
 
-> ⚠️ The `--break-system-packages` flag is needed on **Ubuntu / Lubuntu / Debian** based systems.
+>  The `--break-system-packages` flag is needed on **Ubuntu / Lubuntu / Debian** based systems.
 > If you're on Windows or using a virtual environment, drop that flag.
 
 **3. Run it**
@@ -71,10 +71,10 @@ You'll see a menu like this:
 
 ```
 What do you want to do?
-  1. 🔍  Scan file / folder   (view metadata)
-  2. 🧹  Strip file / folder  (remove metadata)
-  3. ❓  Help
-  4. 🚪  Exit
+  1.   Scan file / folder   (view metadata)
+  2.   Strip file / folder  (remove metadata)
+  3.   Help
+  4.   Exit
 
   ›
 ```
